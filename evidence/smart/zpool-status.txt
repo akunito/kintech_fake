@@ -1,0 +1,47 @@
+# ZFS + block layer context — captured 2026-10-01T20:30:06+02:00
+  pool: ssdpool
+ state: ONLINE
+status: Some supported and requested features are not enabled on the pool.
+	The pool can still be used, but some features are unavailable.
+action: Enable all features using 'zpool upgrade'. Once this is done,
+	the pool may no longer be accessible by software that does not support
+	the features. See zpool-features(7) for details.
+  scan: scrub repaired 0B in 01:13:59 with 0 errors on Thu Oct  1 12:09:39 2026
+config:
+
+	NAME                                             STATE     READ WRITE CKSUM
+	ssdpool                                          ONLINE       0     0     0
+	  raidz1-0                                       ONLINE       0     0     0
+	    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077805  ONLINE       0     0     0
+	    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077806  ONLINE       0     0     0
+	    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077808  ONLINE       0     0     0
+	    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077877  ONLINE       0     0     0
+
+errors: No known data errors
+
+NAME                                              SIZE  ALLOC   FREE  CKPOINT  EXPANDSZ   FRAG    CAP  DEDUP    HEALTH  ALTROOT
+ssdpool                                          7.27T  3.24T  4.02T        -         -    14%    44%  1.00x    ONLINE  -
+  raidz1-0                                       7.27T  3.24T  4.02T        -         -    14%  44.7%      -    ONLINE        -
+    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077805  1.82T      -      -        -         -      -      -      -    ONLINE        -
+    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077806  1.82T      -      -        -         -      -      -      -    ONLINE        -
+    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077808  1.82T      -      -        -         -      -      -      -    ONLINE        -
+    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077877  1.86T      -      -        -         -      -      -      -    ONLINE        -
+
+NAME          MODEL                   SERIAL               SIZE DISC-GRAN DISC-MAX
+sda           Samsung SSD 870 EVO 2TB S5Y4R020A077806      1.8T      512B       2G
+sdb           Samsung SSD 870 EVO 2TB S5Y4R020A077805      1.8T      512B       2G
+sdc           Samsung SSD 870 EVO 2TB S5Y4R020A077808      1.8T      512B       2G
+sdd           Samsung SSD 870 EVO 2TB S5Y4R020A077877      1.9T      512B       2G
+nvme0n1       Lexar SSD NQ790 4TB     [serial-other-device]   3.6T      512B       2T
+nvme1n1       Samsung SSD 980 500GB   [serial-other-dev]    465.8G      512B       2T
+├─nvme1n1p1                                                511M      512B       2T
+└─nvme1n1p2                                              465.3G      512B       2T
+  └─cryptroot                                            465.2G        0B       0B
+
+NAME    MODEL                   SERIAL                      SIZE WWN                                       REV TRAN
+sda     Samsung SSD 870 EVO 2TB S5Y4R020A077806    2000398934016                                       W0814A0 sata
+sdb     Samsung SSD 870 EVO 2TB S5Y4R020A077805    2000398934016                                       W0814A0 sata
+sdc     Samsung SSD 870 EVO 2TB S5Y4R020A077808    2000398934016                                       W0814A0 sata
+sdd     Samsung SSD 870 EVO 2TB S5Y4R020A077877    2048408248320                                       W0724A0 sata
+nvme0n1 Lexar SSD NQ790 4TB     [serial-other-device] 4000787030016 eui.0000000625033952caf25b0320000101    22788 nvme
+nvme1n1 Samsung SSD 980 500GB   [serial-other-dev]     500107862016 eui.002538d221c31731                 2B4QFXO7 nvme

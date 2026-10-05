@@ -1,0 +1,582 @@
+# ATA IDENTIFY DEVICE (decoded words/bits) — drive S5Y4R020A077808 — captured 2026-10-01T20:30:25+02:00
+# Command: smartctl --identify=wb /dev/sdc
+
+smartctl 7.5 2025-04-30 r5714 [x86_64-linux-6.12.93] (local build)
+Copyright (C) 2002-25, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== ATA IDENTIFY DATA ===
+Word     Bit     Value   Description
+
+   0      -     0x0040   General configuration
+   0     15          0   Device identifier: 0 = ATA, 1 = ATAPI
+   0     14:8     0x00   Vendor specific [RET-3]
+   0      7          0   Removable media device [OBS-8]
+   0      6          1   Not removable controller and/or device [OBS-6]
+   0      5:3      0x0   Vendor specific [RET-3]
+   0      2          0   Response incomplete
+   0      1          0   Vendor specific [RET-3]
+   0      0          0   Reserved
+
+   1      -     0x3fff   Cylinders [OBS-6]
+
+   2      -     0xc837   Specific configuration (0x37c8/738c/8c73/c837)
+
+   3      -     0x0010   Heads [OBS-6]
+
+   4      -     0x0000   Vendor specific [RET-3]
+
+   5      -     0x0000   Vendor specific [RET-3]
+
+   6      -     0x003f   Sectors per track [OBS-6]
+
+   7-8    -     0x00...  Reserved for CFA (Sectors per card)
+
+   9      -     0x0000   Vendor specific [RET-4]
+
+  10-19   -     .        Serial number (String)
+  10-13   .     0x5335:5934:5230:3230  "S5Y4R020"
+  14-17   .     0x4130:3737:3830:3820  "A077808 "
+  18-19   .     0x2020:2020            "    "
+
+  20      -     0x0000   Vendor specific [RET-3]
+
+  21      -     0x0000   Vendor specific [RET-3]
+
+  22      -     0x0000   Vendor specific bytes on READ/WRITE LONG [OBS-4]
+
+  23-26   -     .        Firmware revision (String)
+  23-26   .     0x5730:3831:3441:3020  "W0814A0 "
+
+  27-46   -     .        Model number (String)
+  27-30   .     0x5361:6d73:756e:6720  "Samsung "
+  31-34   .     0x5353:4420:3837:3020  "SSD 870 "
+  35-38   .     0x4556:4f20:3254:4220  "EVO 2TB "
+  39-42   .     0x2020:2020:2020:2020  "        "
+  43-46   .     0x2020:2020:2020:2020  "        "
+
+  47      -     0x8001   READ/WRITE MULTIPLE support [OBS-ACS-4]
+  47     15:8     0x80   Must be set to 0x80
+  47      7:0     0x01   Max sectors per DRQ on READ/WRITE MULTIPLE [OBS-ACS-4]
+
+  48      -     0x4000   Trusted Computing feature set options
+  48     15:14     0x1   Must be set to 0x1
+  48     13:1   0x0000   Reserved for the Trusted Computing Group
+  48      0          0   Trusted Computing feature set supported
+
+  49      -     0x2f00   Capabilities
+  49     15:14     0x0   Reserved for IDENTIFY PACKET DEVICE
+  49     13          1   Standard standby timer values supported
+  49     12          0   Reserved for IDENTIFY PACKET DEVICE
+  49     11          1   IORDY supported
+  49     10          1   IORDY may be disabled
+  49      9          1   LBA supported
+  49      8          1   DMA supported
+  49      7:2     0x00   Reserved
+  49      1:0      0x0   Long Phy Sector Alignment Error reporting
+
+  50      -     0x4000   Capabilities
+  50     15:14     0x1   Must be set to 0x1
+  50     13:2    0x000   Reserved
+  50      1          0   Reserved [OBS-6]
+  50      0          0   Vendor specific minimum standby timer value
+
+  51      -     0x0200   PIO data transfer mode [OBS-5]
+
+  52      -     0x0000   Single Word DMA data transfer mode [OBS-3]
+
+  53      -     0x0007   Field validity / Free-fall Control
+  53     15:8     0x00   Free-fall Control sensitivity
+  53      7:3     0x00   Reserved
+  53      2          1   Word 88 (Ultra DMA modes) is valid
+  53      1          1   Words 64-70 (PIO modes) are valid
+  53      0          1   Words 54-58 (CHS) are valid [OBS-6]
+
+  54      -     0x3fff   Current cylinders [OBS-6]
+
+  55      -     0x0010   Current heads [OBS-6]
+
+  56      -     0x003f   Current sectors per track [OBS-6]
+
+  57-58   -     .        Current capacity in sectors (DWord) [OBS-6]
+  57-58   .     0xfc10:00fb  (16514064)
+
+  59      -     0x9101   Sanitize Device - READ/WRITE MULTIPLE support
+  59     15          1   BLOCK ERASE EXT supported
+  59     14          0   OVERWRITE EXT supported
+  59     13          0   CRYPTO SCRAMBLE EXT supported
+  59     12          1   Sanitize Device feature set supported
+  59     11          0   Cmds during sanitize are as specified by ACS-3
+  59     10          0   SANITIZE ANTIFREEZE LOCK EXT supported
+  59      9          0   Reserved
+  59      8          1   Bits 7:0 are valid [OBS-ACS-4]
+  59      7:0     0x01   Current number of sectors per DRQ [OBS-ACS-4]
+
+  60-61   -     .        User addressable sectors for 28-bit commands (DWord)
+  60-61   .     0xffff:0fff  (268435455)
+
+  62      -     0x0000   Single Word DMA modes [OBS-3]
+
+  63      -     0x0007   Multiword DMA modes
+  63     15:11    0x00   Reserved
+  63     10          0   Multiword DMA mode 2 selected
+  63      9          0   Multiword DMA mode 1 selected
+  63      8          0   Multiword DMA mode 0 selected
+  63      7:3     0x00   Reserved
+  63      2          1   Multiword DMA mode 2 and below supported
+  63      1          1   Multiword DMA mode 1 and below supported
+  63      0          1   Multiword DMA mode 0 supported
+
+  64      -     0x0003   PIO modes
+  64     15:2   0x0000   Reserved
+  64      1          1   PIO mode 4 supported
+  64      0          1   PIO mode 3 supported
+
+  65      -     0x0078   Minimum Multiword DMA cycle time per word in ns
+
+  66      -     0x0078   Recommended Multiword DMA cycle time in ns
+
+  67      -     0x0078   Minimum PIO cycle time without flow control in ns
+
+  68      -     0x0078   Minimum PIO cycle time with IORDY flow control in ns
+
+  69      -     0x0d00   Additional support
+  69     15          0   CFast specification supported
+  69     14          0   Deterministic data after trim supported
+  69     13          0   LPS Alignment Error Reporting Control supported
+  69     12          0   DCO IDENTIFY/SET DMA supported [OBS-ACS-3]
+  69     11          1   READ BUFFER DMA supported
+  69     10          1   WRITE BUFFER DMA supported
+  69      9          0   SET MAX SET PASSWORD/UNLOCK DMA supported [OBS-ACS-3]
+  69      8          1   DOWNLOAD MICROCODE DMA supported
+  69      7          0   Reserved for IEEE 1667
+  69      6          0   Optional ATA device 28-bit commands supported
+  69      5          0   Trimmed LBA range(s) returning zeroed data supported
+  69      4          0   Device encrypts all user data
+  69      3          0   Extended number of user addressable sectors supported
+  69      2          0   All write cache is non-volatile
+  69      1:0      0x0   Zoned Capabilities [OBS-ACS-5]
+
+  70      -     0x0000   Reserved
+
+  71-74   -     0x00...  Reserved for IDENTIFY PACKET DEVICE
+
+  75      -     0x001f   Queue depth
+  75     15:5    0x000   Reserved
+  75      4:0     0x1f   Maximum queue depth - 1
+
+  76      -     0x850e   Serial ATA capabilities
+  76     15          1   READ LOG DMA EXT as equiv to READ LOG EXT supported
+  76     14          0   Device Auto Partial to Slumber transitions supported
+  76     13          0   Host Auto Partial to Slumber transitions supported
+  76     12          0   NCQ priority information supported
+  76     11          0   Unload while NCQ commands are outstanding supported
+  76     10          1   Phy Event Counters supported
+  76      9          0   Receipt of host initiated PM requests supported
+  76      8          1   NCQ feature set supported
+  76      7:4      0x0   Reserved for Serial ATA
+  76      3          1   SATA Gen3 signaling speed (6.0 Gb/s) supported
+  76      2          1   SATA Gen2 signaling speed (3.0 Gb/s) supported
+  76      1          1   SATA Gen1 signaling speed (1.5 Gb/s) supported
+  76      0          0   Must be set to 0
+
+  77      -     0x0006   Serial ATA additional capabilities
+  77     15:10    0x00   Reserved for Serial ATA
+  77      9          0   Out Of Band Management supported
+  77      8          0   Power Disable feature always enabled
+  77      7          0   DevSleep to ReducedPwrState supported
+  77      6          0   RECEIVE/SEND FPDMA QUEUED supported
+  77      5          0   NCQ Queue Management supported
+  77      4          0   NCQ Streaming supported
+  77      3:1      0x3   Current Serial ATA signal speed
+  77      0          0   Must be set to 0
+
+  78      -     0x0044   Serial ATA features supported
+  78     15:13     0x0   Reserved for Serial ATA
+  78     12          0   Power Disable feature supported
+  78     11          0   Rebuild Assist feature set supported
+  78     10          0   Reserved for Serial ATA
+  78      9          0   Hybrid Information supported
+  78      8          0   Device Sleep feature supported
+  78      7          0   NCQ Autosense supported
+  78      6          1   Software Settings Preservation supported
+  78      5          0   Hardware Feature Control supported
+  78      4          0   In-order data delivery supported
+  78      3          0   Device initiated power management supported
+  78      2          1   DMA Setup auto-activation supported
+  78      1          0   Non-zero buffer offsets supported
+  78      0          0   Must be set to 0
+
+  79      -     0x0044   Serial ATA features enabled
+  79     15:12     0x0   Reserved for Serial ATA
+  79     11          0   Rebuild Assist feature set enabled
+  79     10          0   Power Disable feature enabled
+  79      9          0   Hybrid Information enabled
+  79      8          0   Device Sleep feature enabled
+  79      7          0   Automatic Partial to Slumber transitions enabled
+  79      6          1   Software Settings Preservation enabled
+  79      5          0   Hardware Feature Control enabled
+  79      4          0   In-order data delivery enabled
+  79      3          0   Device initiated power management enabled
+  79      2          1   DMA Setup auto-activation enabled
+  79      1          0   Non-zero buffer offsets enabled
+  79      0          0   Must be set to 0
+
+  80      -     0x03f0   Major version number
+  80     15:13     0x0   Reserved
+  80     12          0   ACS-5 supported
+  80     11          0   ACS-4 supported
+  80     10          0   ACS-3 supported
+  80      9          1   ACS-2 supported
+  80      8          1   ATA8-ACS supported
+  80      7          1   ATA/ATAPI-7 supported [OBS-ACS-4]
+  80      6          1   ATA/ATAPI-6 supported [OBS-ACS-4]
+  80      5          1   ATA/ATAPI-5 supported [OBS-ACS-4]
+  80      4          1   ATA/ATAPI-4 supported [OBS-8]
+  80      3          0   ATA-3 supported [OBS-7]
+  80      2          0   ATA-2 supported [OBS-6]
+  80      1          0   ATA-1 supported [OBS-5]
+  80      0          0   Reserved
+
+  81      -     0x0110   Minor version number
+
+  82      -     0x346b   Commands and feature sets supported
+  82     15          0   IDENTIFY DEVICE DMA supported [OBS-4]
+  82     14          0   NOP supported
+  82     13          1   READ BUFFER supported
+  82     12          1   WRITE BUFFER supported
+  82     11          0   WRITE VERIFY supported [OBS-4]
+  82     10          1   HPA feature set supported [OBS-ACS-3]
+  82      9          0   DEVICE RESET supported
+  82      8          0   SERVICE interrupt supported [OBS-ACS-2]
+  82      7          0   Release interrupt supported [OBS-ACS-2]
+  82      6          1   Read look-ahead supported
+  82      5          1   Volatile write cache supported
+  82      4          0   PACKET feature set supported
+  82      3          1   Power Management feature set supported
+  82      2          0   Removable Media feature set supported [OBS-8]
+  82      1          1   Security feature set supported
+  82      0          1   SMART feature set supported
+
+  83      -     0x7509   Commands and feature sets supported
+  83     15:14     0x1   Must be set to 0x1
+  83     13          1   FLUSH CACHE EXT supported
+  83     12          1   FLUSH CACHE supported
+  83     11          0   DCO feature set supported [OBS-ACS-3]
+  83     10          1   48-bit Address feature set supported
+  83      9          0   AAM feature set supported [OBS-ACS-2]
+  83      8          1   SET MAX security extension supported [OBS-ACS-3]
+  83      7          0   Reserved for Addr Offset Resvd Area Boot [OBS-ACS-3]
+  83      6          0   SET FEATURES subcommand required to spin-up
+  83      5          0   PUIS feature set supported
+  83      4          0   Removable Media Status Notification supported [OBS-8]
+  83      3          1   APM feature set supported
+  83      2          0   CFA feature set supported
+  83      1          0   TCQ feature set supported [OBS-ACS-2]
+  83      0          1   DOWNLOAD MICROCODE supported
+
+  84      -     0x4063   Commands and feature sets supported
+  84     15:14     0x1   Must be set to 0x1
+  84     13          0   IDLE IMMEDIATE with UNLOAD feature supported
+  84     12:11     0x0   Reserved for TLC [OBS-ACS-3]
+  84     10          0   URG bit for WRITE STREAM (DMA) EXT supported [OBS-8]
+  84      9          0   URG bit for READ STREAM (DMA) EXT supported [OBS-8]
+  84      8          0   64-bit World Wide Name supported
+  84      7          0   WRITE DMA QUEUED FUA EXT supported [OBS-ACS-2]
+  84      6          1   WRITE DMA/MULTIPLE FUA EXT supported
+  84      5          1   GPL feature set supported
+  84      4          0   Streaming feature set supported
+  84      3          0   Media Card Pass Through Command supported [OBS-ACS-2]
+  84      2          0   Media serial number supported [RES-ACS-3]
+  84      1          1   SMART self-test supported
+  84      0          1   SMART error logging supported
+
+  85      -     0x3469   Commands and feature sets supported or enabled
+  85     15          0   IDENTIFY DEVICE DMA supported [OBS-4]
+  85     14          0   NOP supported
+  85     13          1   READ BUFFER supported
+  85     12          1   WRITE BUFFER supported
+  85     11          0   WRITE VERIFY supported [OBS-4]
+  85     10          1   HPA feature set supported [OBS-ACS-3]
+  85      9          0   DEVICE RESET supported
+  85      8          0   SERVICE interrupt enabled [OBS-ACS-2]
+  85      7          0   Release interrupt enabled [OBS-ACS-2]
+  85      6          1   Read look-ahead enabled
+  85      5          1   Write cache enabled
+  85      4          0   PACKET feature set supported
+  85      3          1   Power Management feature set supported
+  85      2          0   Removable Media feature set supported [OBS-8]
+  85      1          0   Security feature set enabled
+  85      0          1   SMART feature set enabled
+
+  86      -     0xb409   Commands and feature sets supported or enabled
+  86     15          1   Words 119-120 are valid
+  86     14          0   Reserved
+  86     13          1   FLUSH CACHE EXT supported
+  86     12          1   FLUSH CACHE supported
+  86     11          0   DCO feature set supported [OBS-ACS-3]
+  86     10          1   48-bit Address features set supported
+  86      9          0   AAM feature set enabled [OBS-ACS-2]
+  86      8          0   SET MAX security extension enabled [OBS-ACS-3]
+  86      7          0   Reserved for Addr Offset Resvd Area Boot [OBS-ACS-3]
+  86      6          0   SET FEATURES subcommand required to spin-up
+  86      5          0   PUIS feature set enabled
+  86      4          0   Removable Media Status Notification enabled [OBS-8]
+  86      3          1   APM feature set enabled
+  86      2          0   CFA feature set supported
+  86      1          0   TCQ feature set supported [OBS-ACS-2]
+  86      0          1   DOWNLOAD MICROCODE supported
+
+  87      -     0x4063   Commands and feature sets supported or enabled
+  87     15:14     0x1   Must be set to 0x1
+  87     13          0   IDLE IMMEDIATE with UNLOAD FEATURE supported
+  87     12:11     0x0   Reserved for TLC [OBS-ACS-3]
+  87     10          0   URG bit for WRITE STREAM (DMA) EXT supported [OBS-8]
+  87      9          0   URG bit for READ STREAM (DMA) EXT supported [OBS-8]
+  87      8          0   64-bit World Wide Name supported
+  87      7          0   WRITE DMA QUEUED FUA EXT supported [OBS-ACS-2]
+  87      6          1   WRITE DMA/MULTIPLE FUA EXT supported
+  87      5          1   GPL feature set supported
+  87      4          0   Valid CONFIGURE STREAM has been executed [OBS-8]
+  87      3          0   Media Card Pass Through Command supported [OBS-ACS-2]
+  87      2          0   Media serial number is valid
+  87      1          1   SMART self-test supported
+  87      0          1   SMART error logging supported
+
+  88      -     0x407f   Ultra DMA modes
+  88     15          0   Reserved
+  88     14          1   Ultra DMA mode 6 selected
+  88     13          0   Ultra DMA mode 5 selected
+  88     12          0   Ultra DMA mode 4 selected
+  88     11          0   Ultra DMA mode 3 selected
+  88     10          0   Ultra DMA mode 2 selected
+  88      9          0   Ultra DMA mode 1 selected
+  88      8          0   Ultra DMA mode 0 selected
+  88      7          0   Reserved
+  88      6          1   Ultra DMA mode 6 and below supported
+  88      5          1   Ultra DMA mode 5 and below supported
+  88      4          1   Ultra DMA mode 4 and below supported
+  88      3          1   Ultra DMA mode 3 and below supported
+  88      2          1   Ultra DMA mode 2 and below supported
+  88      1          1   Ultra DMA mode 1 and below supported
+  88      0          1   Ultra DMA mode 0 supported
+
+  89      -     0x0001   SECURITY ERASE UNIT time
+  89     15          0   Bits 14:8 of value are valid
+  89     14:0   0x0001   SECURITY ERASE UNIT time value
+
+  90      -     0x0001   ENHANCED SECURITY ERASE UNIT time
+  90     15          0   Bits 14:8 of value are valid
+  90     14:0   0x0001   ENHANCED SECURITY ERASE UNIT time value
+
+  91      -     0x00fe   Current APM level
+  91     15:8     0x00   Reserved
+  91      7:0     0xfe   Current APM level value
+
+  92      -     0xfffe   Master Password Identifier
+
+  93      -     0x0000   Hardware reset result (PATA)
+  93     15:14     0x0   Must be set to 0x1
+  93     13          0   Device detected CBLID- above(1)/below(0) ViHB
+  93     12          0   Reserved
+  93     11          0   Device 1 asserted PDIAG-
+  93     10:9      0x0   Device 1 detection method: -, Jumper, CSEL, other
+  93      8          0   Must be set to 1
+  93      7          0   Reserved
+  93      6          0   Device 0 responds when device 1 selected
+  93      5          0   Device 0 detected the assertion of DASP-
+  93      4          0   Device 0 detected the assertion of PDIAG-
+  93      3          0   Device 0 passed diagnostics
+  93      2:1      0x0   Device 0 detection method: -, Jumper, CSEL, other
+  93      0          0   Must be set to 1 for PATA devices
+
+  94      -     0x0000   AAM level [OBS-ACS-2]
+  94     15:8     0x00   Recommended AAM level [OBS-ACS-2]
+  94      7:0     0x00   Current AAM level [OBS-ACS-2]
+
+  95      -     0x0000   Stream Minimum Request Size
+
+  96      -     0x0000   Streaming Transfer Time - DMA
+
+  97      -     0x0000   Streaming Access Latency - DMA and PIO
+
+  98-99   -     0x00...  Streaming Performance Granularity (DWord)
+
+ 100-103  -     .        User addressable sectors for 48-bit commands (QWord)
+ 100-103  .     0x88b0:e8e0:0000:0000  (3907029168)
+
+ 104      -     0x0000   Streaming Transfer Time - PIO
+
+ 105      -     0x0008   Max blocks of LBA Range Entries per DS MANAGEMENT cmd
+
+ 106      -     0x4000   Physical sector size / logical sector size
+ 106     15:14     0x1   Must be set to 0x1
+ 106     13          0   Multiple logical sectors per physical sector
+ 106     12          0   Logical Sector longer than 256 words
+ 106     11:4     0x00   Reserved
+ 106      3:0      0x0   2^X logical sectors per physical sector
+
+ 107      -     0x0000   Inter-seek delay for ISO 7779 acoustic testing
+
+ 108-111  -     0x00...  World Wide Name
+
+ 112-115  -     0x00...  Reserved
+
+ 116      -     0x0000   Reserved for TLC [OBS-ACS-3]
+
+ 117-118  -     0x00...  Logical sector size (DWord)
+
+ 119      -     0x4018   Commands and feature sets supported
+ 119     15:14     0x1   Must be set to 0x1
+ 119     13:10     0x0   Reserved
+ 119      9          0   DSN feature set supported
+ 119      8          0   Accessible Max Address Config feature set supported
+ 119      7          0   Extended Power Conditions feature set supported
+ 119      6          0   Sense Data Reporting feature set supported
+ 119      5          0   Free-fall Control feature set supported
+ 119      4          1   DOWNLOAD MICROCODE with mode 3 supported
+ 119      3          1   READ/WRITE LOG DMA EXT supported
+ 119      2          0   WRITE UNCORRECTABLE EXT supported
+ 119      1          0   Write-Read-Verify feature set supported
+ 119      0          0   Reserved for DDT [OBS-ACS-3]
+
+ 120      -     0x401c   Commands and feature sets supported or enabled
+ 120     15:14     0x1   Must be set to 0x1
+ 120     13:10     0x0   Reserved
+ 120      9          0   DSN feature set enabled
+ 120      8          0   Reserved
+ 120      7          0   Extended Power Conditions feature set enabled
+ 120      6          0   Sense Data Reporting feature set enabled
+ 120      5          0   Free-fall Control feature set enabled
+ 120      4          1   DOWNLOAD MICROCODE with mode 3 supported
+ 120      3          1   READ/WRITE LOG DMA EXT supported
+ 120      2          1   WRITE UNCORRECTABLE EXT supported
+ 120      1          0   Write-Read-Verify feature set enabled
+ 120      0          0   Reserved for DDT [OBS-ACS-3]
+
+ 121-126  -     0x00...  Reserved
+
+ 127      -     0x0000   Removable Media Status Notification [OBS-8]
+ 127     15:1   0x0000   Reserved
+ 127      0          0   Removable Media Status Notification supported [OBS-8]
+
+ 128      -     0x0021   Security status
+ 128     15:9     0x00   Reserved
+ 128      8          0   Master password capability: 0 = High, 1 = Maximum
+ 128      7:6      0x0   Reserved
+ 128      5          1   Enhanced security erase supported
+ 128      4          0   Security count expired
+ 128      3          0   Security frozen
+ 128      2          0   Security locked
+ 128      1          0   Security enabled
+ 128      0          1   Security supported
+
+ 129-159  -     .        Vendor specific
+ 129-132  .     0x5361:6d73:756e:6720
+ 133-136  .     0x5353:4420:3837:3020
+ 137-140  .     0x4556:4f20:3254:4220
+ 141-159  .     0x0000:0000:0000:00...
+
+ 160      -     0x0000   CFA power mode
+
+ 161-167  -     0x00...  Reserved for CFA
+
+ 168      -     0x0003   Form factor
+ 168     15:4    0x000   Reserved
+ 168      3:0      0x3   Nominal form factor: -, 5.25, 3.5, 2.5, 1.8, ...
+
+ 169      -     0x0001   DATA SET MANAGEMENT command support
+ 169     15:1   0x0000   Reserved
+ 169      0          1   Trim bit in DATA SET MANAGEMENT command supported
+
+ 170-173  -     0x00...  Additional product identifier (String)
+
+ 174-175  -     0x00...  Reserved
+
+ 176-205  -     .        Current media serial number (String)
+ 176-179  .     0x2020:2020:2020:2020  "        "
+ 180-183  .     0x2020:2020:2020:2020  "        "
+ 184-187  .     0x2020:2020:2020:2020  "        "
+ 188-191  .     0x2020:2020:2020:2020  "        "
+ 192-195  .     0x2020:2020:2020:2020  "        "
+ 196-199  .     0x2020:2020:2020:2020  "        "
+ 200-203  .     0x2020:2020:2020:2020  "        "
+ 204-205  .     0x2020:2020            "    "
+
+ 206      -     0x0001   SCT Command Transport
+ 206     15:12     0x0   Vendor specific
+ 206     11:8      0x0   Reserved
+ 206      7          0   Reserved for Serial ATA
+ 206      6          0   Reserved
+ 206      5          0   SCT Data Tables supported
+ 206      4          0   SCT Feature Control supported
+ 206      3          0   SCT Error Recovery Control supported
+ 206      2          0   SCT Write Same supported
+ 206      1          0   SCT Read/Write Long supported [OBS-ACS-2]
+ 206      0          1   SCT Command Transport supported
+
+ 207-208  -     0x00...  Reserved
+
+ 209      -     0x4000   Alignment of logical sectors
+ 209     15:14     0x1   Must be set to 0x1
+ 209     13:0   0x0000   Logical sector offset
+
+ 210-211  -     0x00...  Write-Read-Verify sector count mode 3 (DWord)
+
+ 212-213  -     0x00...  Write-Read-Verify sector count mode 2 (DWord)
+
+ 214      -     0x0000   NV Cache capabilities [OBS-ACS-3]
+ 214     15:12     0x0   NV Cache feature set version [OBS-ACS-3]
+ 214     11:8      0x0   NV Cache Power Mode feature set version [OBS-ACS-3]
+ 214      7:5      0x0   Reserved [OBS-ACS-3]
+ 214      4          0   NV Cache feature set enabled [OBS-ACS-3]
+ 214      3:2      0x0   Reserved
+ 214      1          0   NV Cache Power Mode feature set enabled [OBS-ACS-3]
+ 214      0          0   NV Cache Power Mode feature set supported [OBS-ACS-3]
+
+ 215-216  -     0x00...  NV Cache size in logical blocks (DWord) [OBS-ACS-3]
+
+ 217      -     0x0001   Nominal media rotation rate
+
+ 218      -     0x0000   Reserved
+
+ 219      -     0x0000   NV Cache options [OBS-ACS-3]
+ 219     15:8     0x00   Reserved [OBS-ACS-3]
+ 219      7:0     0x00   Estimated time to spin up in seconds [OBS-ACS-3]
+
+ 220      -     0x0000   Write-Read-Verify mode
+ 220     15:8     0x00   Reserved
+ 220      7:0     0x00   Write-Read-Verify feature set current mode
+
+ 221      -     0x0000   Reserved
+
+ 222      -     0x10ff   Transport major version number
+ 222     15:12     0x1   Type: 0x1 = Serial  | 0x0 = Parallel | 0xe = PCIe
+ 222     11          0   Reserved
+ 222     10          0   SATA 3.5
+ 222      9          0   SATA 3.4
+ 222      8          0   SATA 3.3
+ 222      7          1   SATA 3.2
+ 222      6          1   SATA 3.1
+ 222      5          1   SATA 3.0
+ 222      4          1   SATA 2.6
+ 222      3          1   SATA 2.5
+ 222      2          1   SATA II: Extensions
+ 222      1          1   SATA 1.0a           | ATA/ATAPI-7 [OBS-ACS-5]
+ 222      0          1   ATA8-AST            | ATA8-APT    [OBS-ACS-5]
+
+ 223      -     0x0000   Transport minor version number
+
+ 224-229  -     0x00...  Reserved
+
+ 230-233  -     0x00...  Extended number of user addressable sectors (QWord)
+
+ 234      -     0x0020   Minimum blocks per DOWNLOAD MICROCODE mode 3 command
+
+ 235      -     0x0020   Maximum blocks per DOWNLOAD MICROCODE mode 3 command
+
+ 236-254  -     0x00...  Reserved
+
+ 255      -     0xffa5   Integrity word
+ 255     15:8     0xff   Checksum
+ 255      7:0     0xa5   Signature
+
