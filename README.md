@@ -8,7 +8,7 @@ To repozytorium zawiera pełną dokumentację reklamacji czterech dysków SSD sp
 
 | | |
 |---|---|
-| Sprzedawca | konto Allegro **grzesiup255**, nazwa handlowa **Kintech** — Grzegorz Pawlik, Mnichów 121a, 28-300 Jędrzejów, NIP 656-233-10-99, REGON 362036210 (dane z zakładki „O sprzedawcy” i CEIDG). CEIDG rejestruje ten NIP pod nazwami „1) GlobTronics Grzegorz Pawlik, 2) KINTECH Grzegorz Pawlik”, działalność główna 47.41.Z — sprzedaż detaliczna komputerów, od 15.07.2015 |
+| Sprzedawca | konto Allegro **grzesiup255**, nazwa handlowa **Kintech** — Grzegorz Pawlik, Mnichów 121a, 28-300 Jędrzejów, NIP 656-233-10-99, REGON 362036210 (dane z zakładki „O sprzedawcy” i CEIDG). CEIDG rejestruje ten NIP pod nazwami „1) GlobTronics Grzegorz Pawlik, 2) KINTECH Grzegorz Pawlik”, działalność główna 47.41.Z — sprzedaż detaliczna komputerów, od 15.07.2015. Ten sam podmiot (ten sam NIP, REGON, adres i telefon) prowadzi drugie konto Allegro **globtronics_PL** (zrzut: [`evidence/screens/2026-10-05_globtronics_PL-dane-firmy.jpg`](evidence/screens/2026-10-05_globtronics_PL-dane-firmy.jpg)) |
 | Kupujący | konsument, Warszawa (dane usunięte) |
 | Transakcja | zamówienie Allegro z 17.03.2025, oferta nr 16733065275, 4 × 675 zł = 2 700 zł |
 | Oferta | „Dysk SSD Samsung MZ-77E2T0 2TB 2,5" SATA III 870 EVO” — Stan: **Nowy**, Producent: **Samsung**, kod producenta MZ-77E2T0B/EU, EAN 8806090545900, „gwarancja producenta 24 miesiące”; bez jakiejkolwiek informacji o nieoryginalności |
@@ -79,7 +79,7 @@ Dokumenty są publikowane w celach informacyjnych i dowodowych. Wszystkie twierd
 
 # Non-genuine "Samsung 870 EVO 2TB" sold as new on Allegro (Poland) — case file
 
-Four SSDs sold on Allegro.pl as **new Samsung SSD 870 EVO 2TB (MZ-77E2T0B/EU)** by the business seller **grzesiup255 / Kintech** (Grzegorz Pawlik, Mnichów 121a, 28-300 Jędrzejów, NIP 656-233-10-99, REGON 362036210; the same NIP is registered in CEIDG as "GlobTronics Grzegorz Pawlik / KINTECH Grzegorz Pawlik", main activity retail of computers). Samsung Memory Support (Hanaro Europe, ticket 431368, 2 Oct 2026) confirmed in writing: *"We regret to inform you that all SSDs are not a genuine Samsung SSD."* The buyer's personal data has been removed; everything else is published unchanged.
+Four SSDs sold on Allegro.pl as **new Samsung SSD 870 EVO 2TB (MZ-77E2T0B/EU)** by the business seller **grzesiup255 / Kintech** (Grzegorz Pawlik, Mnichów 121a, 28-300 Jędrzejów, NIP 656-233-10-99, REGON 362036210; the same NIP is registered in CEIDG as "GlobTronics Grzegorz Pawlik / KINTECH Grzegorz Pawlik", main activity retail of computers; the same entity also runs the Allegro account **globtronics_PL** — same NIP, REGON, address and phone, see `evidence/screens/2026-10-05_globtronics_PL-dane-firmy.jpg`). Samsung Memory Support (Hanaro Europe, ticket 431368, 2 Oct 2026) confirmed in writing: *"We regret to inform you that all SSDs are not a genuine Samsung SSD."* The buyer's personal data has been removed; everything else is published unchanged.
 
 **Evidence in brief**
 
