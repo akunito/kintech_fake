@@ -46,6 +46,10 @@ Szczegóły i odniesienia do specyfikacji producenta: [`docs/03-zalacznik-techni
 | 02.10.2026 13:03 | konsultant Allegro: sprzedawca może oczekiwać najpierw udostępnienia towaru |
 | 03.10.2026 15:51 | sprzedawca: zgoda na wydłużenie terminu do 12.10.2026, „towar musimy najpierw zweryfikować”; bez tak/nie co do oryginalności |
 | 05.10.2026 11:28 | kupujący: dyski pozostają jako dowód do czasu porozumienia; trzy propozycje (wymiana jednoczesna / zwrot ceny + odszkodowanie / obniżenie ceny 80 %) |
+| 05.10.2026 14:44 | sprzedawca odrzuca reklamację: „Buyer failed to return the goods” – bez odniesienia do stanowiska producenta |
+| 05.10.2026 18:46 | sprzedawca: „nie odniosę się do stanowiska producenta, bo ja nawet nie mam pewności, czy to nasze dyski” |
+| 06.10.2026 18:26 | sprzedawca: „Proszę o numer konta – zwrócę 80% wartości nośników” |
+| 07.10.2026 14:21 | sprzedawca wycofuje ofertę: „**Pomyliłem klientów** tak samo jak Pan pomylił się w wyliczeniach zwrotów… Do zobaczenia na sali sądowej!” – oferta 80 % była dla innego klienta z tym samym problemem |
 | 16.10.2026 | termin ustawowy odpowiedzi na reklamację (art. 7a ustawy o prawach konsumenta) |
 
 Pełny zapis czatu: [`docs/11-chat-allegro-PL-ES.md`](docs/11-chat-allegro-PL-ES.md) i [`evidence/screens/chat-reklamacja-3023695/`](evidence/screens/chat-reklamacja-3023695/).
@@ -93,6 +97,6 @@ Four SSDs sold on Allegro.pl as **new Samsung SSD 870 EVO 2TB (MZ-77E2T0B/EU)** 
 
 **Verify your own "870 EVO"**: `smartctl -x /dev/sdX` — genuine drives report `Firmware Version: SVT0xB6Q`, an `LU WWN Device Id: 5 002538 …` line, `ACS-4`, `SATA 3.3` and 14–15 SMART attributes.
 
-**Status**: Allegro complaint 3023695/2026 filed 2 Oct 2026; the seller has asked for the drives but has not stated whether the goods are genuine; statutory reply deadline 16 Oct 2026. Full claim in English: [`docs/02-claim-EN.md`](docs/02-claim-EN.md); technical annex: [`docs/04-technical-annex-EN.md`](docs/04-technical-annex-EN.md).
+**Status**: Allegro complaint 3023695/2026 filed 2 Oct 2026 and rejected by the seller on 5 Oct ("buyer failed to return the goods" — no word on authenticity; "I will not address the manufacturer's position, I am not even sure these are our drives"). On 6 Oct the seller offered to refund 80 %; on 7 Oct he withdrew it: "**I mixed up the clients** … see you in court!" — i.e. at least one other customer has a refund claim for the same product. Criminal report and consumer-authority complaints in preparation. Full claim in English: [`docs/02-claim-EN.md`](docs/02-claim-EN.md); technical annex: [`docs/04-technical-annex-EN.md`](docs/04-technical-annex-EN.md).
 
 Published for information and as evidence. Every technical claim can be checked against the raw dumps in `evidence/smart/`; the authenticity verdict is the manufacturer's.

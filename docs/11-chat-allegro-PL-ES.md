@@ -160,3 +160,20 @@ Proszę o pisemną odpowiedź, które rozwiązanie Państwo wybierają, w ustawo
 
 Z poważaniem
 [Kupujący]
+
+---
+
+## 2026-10-05 → 2026-10-07 — po odrzuceniu reklamacji (uzupełnienie / actualización)
+
+**05.10 14:44** — decyzja Sprzedawcy: „Complaint rejected. Reason: Buyer failed to return the goods. Rationale: Kupujący nie wyraża chęci na odesłanie towaru na reklamację, w związku z czym nie miałem możliwości ich oględzin, weryfikacji ich stanu technicznego ani ustalenia, czy pochodzą one od nas ani czy rzeczywiście występuje deklarowany przez Pana brak zgodności towaru z umową.”
+
+**05.10 18:46 — grzesiup255**: „Nie odniosę się do stanowiska producenta, bo ja nawet nie mam pewności, czy to nasze dyski szanowny Panie. Swoimi nierealnymi i absurdalnymi żądaniami podważa Pan swoją wiarygodność. Jeśli kieruje Pan sprawę na drogę sądową to będziemy tam sprawę wyjaśniać.”
+
+**06.10 18:26 — grzesiup255**: „Dzień dobry Panie [Kupujący], Proszę o numer konta- zwrócę 80% wartości nośników.”
+
+**07.10 ~13:05 — [Kupujący]** (2 wiadomości): opis sytuacji (kupione 4 oryginalne, dziś 4 podrobione z danymi rodziny, dyski kosztują dziś znacznie więcej); podrobione dyski pozostają u kupującego jako dowód dla organów ścigania lub biegłego; doprecyzowanie kwot: dzisiejszy koszt 4 oryginalnych 8 659,16 zł, żądanie z reklamacji 6 927,33 zł (obniżenie ceny 2 160 + odszkodowanie 4 767,33 = 80 %); trzy opcje: (1) cztery nowe oryginalne dyski z dokumentem pochodzenia, (2) 8 659,16 zł, (3) 6 927,33 zł.
+
+**07.10 14:21 — grzesiup255**: „Najmocniej przepraszam. **Pomyliłem klientów** tak samo jak Pan pomylił się w wyliczeniach zwrotów. Proszę kontaktować się z adwokatem. Do zobaczenia na sali sądowej! Udanego popołudnia !”
+→ Sprzedawca wycofuje ofertę 80 % i oświadcza, że była skierowana do **innego klienta** – czyli prowadzi równolegle co najmniej jedną inną sprawę zwrotu za ten sam problem. Zrzut: `../evidence/screens/chat-reklamacja-3023695/2026-10-07_chat-pomylilem-klientow-1421.jpg`.
+
+ES: el 7.10 el vendedor retira la oferta del 80 % diciendo "confundí a los clientes": admite por escrito que tiene otros clientes con reclamaciones de devolución por el mismo producto.
