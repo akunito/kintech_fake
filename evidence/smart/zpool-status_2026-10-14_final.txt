@@ -1,0 +1,30 @@
+# zpool status -v ssdpool on nas-aku, 2026-10-14T06:57:31+02:00, just before export and disk removal
+  pool: ssdpool
+ state: ONLINE
+status: One or more devices has experienced an unrecoverable error.  An
+	attempt was made to correct the error.  Applications are unaffected.
+action: Determine if the device needs to be replaced, and clear the errors
+	using 'zpool clear' or replace the device with 'zpool replace'.
+   see: https://openzfs.github.io/openzfs-docs/msg/ZFS-8000-9P
+  scan: scrub repaired 0B in 01:13:59 with 0 errors on Thu Oct  1 12:09:39 2026
+config:
+
+	NAME                                             STATE     READ WRITE CKSUM
+	ssdpool                                          ONLINE       0     0     0
+	  raidz1-0                                       ONLINE       0     0     0
+	    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077805  ONLINE       0     0     0
+	    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077806  ONLINE       0     0     1
+	    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077808  ONLINE       0     0     0
+	    ata-Samsung_SSD_870_EVO_2TB_S5Y4R020A077877  ONLINE       0     0     0
+
+errors: No known data errors
+
+NAME      SIZE  ALLOC   FREE  CKPOINT  EXPANDSZ   FRAG    CAP  DEDUP    HEALTH  ALTROOT
+ssdpool  7.27T  3.21T  4.06T        -         -    11%    44%  1.00x    ONLINE  -
+# zpool export (last write to the four drives) and power-off, nas-aku
+export ssdpool at 2026-10-14T07:01:39+02:00
+ssdpool EXPORTED 2026-10-14T07:01:42+02:00
+ssdtmp EXPORTED
+NAME      SIZE  ALLOC   FREE  CKPOINT  EXPANDSZ   FRAG    CAP  DEDUP    HEALTH  ALTROOT
+extpool  3.62T  2.94T   701G        -         -     7%    81%  1.00x    ONLINE  -
+poweroff 2026-10-14T07:01:44+02:00
