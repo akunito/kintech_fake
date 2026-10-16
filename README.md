@@ -55,9 +55,15 @@ Szczegóły i odniesienia do specyfikacji producenta: [`docs/03-zalacznik-techni
 
 Pełny zapis czatu: [`docs/11-chat-allegro-PL-ES.md`](docs/11-chat-allegro-PL-ES.md) i [`evidence/screens/chat-reklamacja-3023695/`](evidence/screens/chat-reklamacja-3023695/).
 
+## Też kupiłeś u tego sprzedawcy? Zgłoś się
+
+Jeżeli kupiłeś u **grzesiup255 / Kintech** lub **globtronics_PL** dysk, który okazał się używany, nieoryginalny, z wyzerowanym SMART albo z nieoryginalną naklejką – Twoja relacja ma znaczenie. Prokuratura wszczyna postępowanie z art. 286 KK dopiero wtedy, gdy widzi powtarzalny schemat wobec wielu kupujących; pojedynczy przypadek traktuje jako „spór cywilny” i umarza. Na dzień 15.10.2026 konto grzesiup255 ma **25 opinii negatywnych** z ostatnich 12 miesięcy (w większości „produkt nie był nowy”) i 79 usuniętych, a sam sprzedawca napisał 7.10.2026 „pomyliłem klientów” – czyli prowadzi równolegle inne zwroty za ten sam problem.
+
+**Jak się zgłosić (bez podawania danych osobowych publicznie):** otwórz zgłoszenie w tym repozytorium → [Issues → New issue](https://github.com/akunito/kintech_fake/issues/new) i napisz: co kupiłeś, kiedy, co było nie tak, czy reklamowałeś i jak to się skończyło. Konto GitHub jest darmowe. Zgłoszenia zbieram do zawiadomienia o przestępstwie; dane kontaktowe wymienimy prywatnie. Jeśli wolisz anonimowo – wystarczy sam opis.
+
 ## Opinie innych kupujących
 
-Na dzień 05.10.2026 konto ma 23 opinie negatywne z ostatnich 12 miesięcy oraz **79 opinii usuniętych** (21 przez Allegro, 58 przez kupujących, 14 z nich „po otrzymaniu rekompensaty”). Według tych opinii (relacje kupujących, nie ustalenia własne): w 18 z 23 kupujący zaznaczyli „produkt nie był nowy”; powtarzają się: wyzerowane liczniki SMART, nieoryginalne naklejki, dysk z zapisanym cudzym systemem, kilka kont sprzedawcy, negatywna opinia w odpowiedzi na reklamację. → [`docs/14-opinie-sprzedawcy-ES.md`](docs/14-opinie-sprzedawcy-ES.md), zrzuty w [`evidence/screens/opinie-sprzedawcy/`](evidence/screens/opinie-sprzedawcy/).
+Na dzień 05.10.2026 konto miało 23 opinie negatywne (15.10.2026: 25) z ostatnich 12 miesięcy oraz **79 opinii usuniętych** (21 przez Allegro, 58 przez kupujących, 14 z nich „po otrzymaniu rekompensaty”). Według tych opinii (relacje kupujących, nie ustalenia własne): w 18 z 23 kupujący zaznaczyli „produkt nie był nowy”; powtarzają się: wyzerowane liczniki SMART, nieoryginalne naklejki, dysk z zapisanym cudzym systemem, kilka kont sprzedawcy, negatywna opinia w odpowiedzi na reklamację. → [`docs/14-opinie-sprzedawcy-ES.md`](docs/14-opinie-sprzedawcy-ES.md), zrzuty w [`evidence/screens/opinie-sprzedawcy/`](evidence/screens/opinie-sprzedawcy/).
 
 ## Zawartość
 
@@ -85,6 +91,12 @@ Dokumenty są publikowane w celach informacyjnych i dowodowych. Wszystkie twierd
 # Non-genuine "Samsung 870 EVO 2TB" sold as new on Allegro (Poland) — case file
 
 Four SSDs sold on Allegro.pl as **new Samsung SSD 870 EVO 2TB (MZ-77E2T0B/EU)** by the business seller **grzesiup255 / Kintech** (Grzegorz Pawlik, Mnichów 121a, 28-300 Jędrzejów, NIP 656-233-10-99, REGON 362036210; the same NIP is registered in CEIDG as "GlobTronics Grzegorz Pawlik / KINTECH Grzegorz Pawlik", main activity retail of computers; the same entity also runs the Allegro account **globtronics_PL** — same NIP, REGON, address and phone, see `evidence/screens/2026-10-05_globtronics_PL-dane-firmy.jpg`). Samsung Memory Support (Hanaro Europe, ticket 431368, 2 Oct 2026) confirmed in writing: *"We regret to inform you that all SSDs are not a genuine Samsung SSD."* The buyer's personal data has been removed; everything else is published unchanged.
+
+## Did you also buy from this seller? Please come forward
+
+If you bought a drive from **grzesiup255 / Kintech** or **globtronics_PL** that turned out used, non-genuine, with reset SMART counters or a non-original sticker, your account matters: the prosecutor opens a case under art. 286 KK only when a repeated pattern across several buyers is shown; a single case is treated as a "civil dispute" and dropped. As of 15 Oct 2026 the account has **25 negative ratings** in 12 months and 79 removed ones, and the seller himself wrote on 7 Oct 2026 "I mixed up the clients" — he is handling other refund claims for the same problem.
+
+**How:** open an issue in this repository → [Issues → New issue](https://github.com/akunito/kintech_fake/issues/new): what you bought, when, what was wrong, whether you complained and how it ended. No personal data needed in public; contact details are exchanged privately. Polish, English or Spanish.
 
 **Evidence in brief**
 
