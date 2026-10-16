@@ -59,6 +59,16 @@ Pełny zapis czatu: [`docs/11-chat-allegro-PL-ES.md`](docs/11-chat-allegro-PL-ES
 
 Jeżeli kupiłeś u **grzesiup255 / Kintech** lub **globtronics_PL** dysk, który okazał się używany, nieoryginalny, z wyzerowanym SMART albo z nieoryginalną naklejką – Twoja relacja ma znaczenie. Prokuratura wszczyna postępowanie z art. 286 KK dopiero wtedy, gdy widzi powtarzalny schemat wobec wielu kupujących; pojedynczy przypadek traktuje jako „spór cywilny” i umarza. Na dzień 15.10.2026 konto grzesiup255 ma **25 opinii negatywnych** z ostatnich 12 miesięcy (w większości „produkt nie był nowy”) i 79 usuniętych, a sam sprzedawca napisał 7.10.2026 „pomyliłem klientów” – czyli prowadzi równolegle inne zwroty za ten sam problem.
 
+**Kilka z tych opinii (zrzuty ze strony ocen sprzedawcy, Allegro tłumaczy je automatycznie):**
+
+![Opinie 15.10.2026 i 27.07.2026: dysk „nowy” wyprodukowany w 2014 r. bez gwarancji; naklejka nieoryginalna zaklejająca datę produkcji](evidence/screens/opinie-sprzedawcy/2026-10-16_opinie-negatywne_nowe-01.jpg)
+
+![Opinie 26.06, 24.06, 23.06 i 18.05.2026: dyski wymontowane z komputerów DELL sprzedane jako nowe; „sprzedawca szykuje się do zmiany konta”; po zwrocie zaprzeczył, że to jego dyski; mści się negatywnymi opiniami w Google; wystawia pod różnymi loginami](evidence/screens/opinie-sprzedawcy/2026-10-05_opinie-negatywne_02.jpg)
+
+![Opinia 24.04.2026: dysk z 27 000 h pracy i wyzerowanym SMART sprzedany jako nowy, bez gwarancji producenta mimo deklaracji](evidence/screens/opinie-sprzedawcy/2026-10-05_opinie-negatywne_03.jpg)
+
+Pozostałe zrzuty: [`evidence/screens/opinie-sprzedawcy/`](evidence/screens/opinie-sprzedawcy/); pełna lista z tłumaczeniem: [`docs/14-opinie-sprzedawcy-ES.md`](docs/14-opinie-sprzedawcy-ES.md).
+
 **Jak się zgłosić (bez podawania danych osobowych publicznie):** otwórz zgłoszenie w tym repozytorium → [Issues → New issue](https://github.com/akunito/kintech_fake/issues/new) i napisz: co kupiłeś, kiedy, co było nie tak, czy reklamowałeś i jak to się skończyło. Konto GitHub jest darmowe. Zgłoszenia zbieram do zawiadomienia o przestępstwie; dane kontaktowe wymienimy prywatnie. Jeśli wolisz anonimowo – wystarczy sam opis.
 
 ## Opinie innych kupujących
@@ -95,6 +105,8 @@ Four SSDs sold on Allegro.pl as **new Samsung SSD 870 EVO 2TB (MZ-77E2T0B/EU)** 
 ## Did you also buy from this seller? Please come forward
 
 If you bought a drive from **grzesiup255 / Kintech** or **globtronics_PL** that turned out used, non-genuine, with reset SMART counters or a non-original sticker, your account matters: the prosecutor opens a case under art. 286 KK only when a repeated pattern across several buyers is shown; a single case is treated as a "civil dispute" and dropped. As of 15 Oct 2026 the account has **25 negative ratings** in 12 months and 79 removed ones, and the seller himself wrote on 7 Oct 2026 "I mixed up the clients" — he is handling other refund claims for the same problem.
+
+Some of those ratings (screenshots of the seller's rating page): [15 Oct + 27 Jul 2026 — "new" drive made in 2014, no warranty; non-original sticker glued over the production date](evidence/screens/opinie-sprzedawcy/2026-10-16_opinie-negatywne_nowe-01.jpg) · [June–May 2026 — drives pulled from DELL PCs sold as new; "the seller is preparing to switch accounts"; denied the returned drives were his; retaliates with Google reviews; lists under different usernames](evidence/screens/opinie-sprzedawcy/2026-10-05_opinie-negatywne_02.jpg) · [24 Apr 2026 — 27,000 h drive with reset SMART sold as new, no manufacturer warranty](evidence/screens/opinie-sprzedawcy/2026-10-05_opinie-negatywne_03.jpg).
 
 **How:** open an issue in this repository → [Issues → New issue](https://github.com/akunito/kintech_fake/issues/new): what you bought, when, what was wrong, whether you complained and how it ended. No personal data needed in public; contact details are exchanged privately. Polish, English or Spanish.
 
